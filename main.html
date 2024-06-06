@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Exemplo</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+    }
+    .container {
+        text-align: center;
+    }
+    .search-bar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    .search-input {
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        width: 240px;
+    }
+    .search-button {
+        padding: 10px 15px;
+        background-color: #007bff;
+        border: none;
+        border-radius: 5px;
+        color: #fff;
+        cursor: pointer;
+    }
+    .menu-bar {
+        display: flex;
+        align-items: center;
+        background-color: #f4f4f4;
+        padding: 10px;
+        border-radius: 5px;
+        margin-left: 20px;
+        width: 900px;
+        float: left;
+    }
+    .menu-button {
+        padding: 10px 15px;
+        background-color: #ccc;
+        border: none;
+        border-radius: 5px;
+        margin: 0 5px;
+        cursor: pointer;
+    }
+    .big-rectangle {
+        background-color: red;
+        color: #fff;
+        padding: 100px 0;
+        margin-bottom: 20px;
+    }
+    .title {
+        font-size: 36px;
+        font-weight: bold;
+    }
+    .sidebar {
+        background-color: #f4f4f4;
+        padding: 20px;
+        text-align: left;
+        float: left;
+        width: 200px;
+        height: 400px;
+        margin-left: 20px;
+    }
+    .text1 {
+        margin-top: 10px;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <div class="search-bar">
+        <div class="menu-bar">
+            <button class="menu-button">Marcas e Projetos</button>
+            <button class="menu-button">Modelos</button>
+            <button class="menu-button">Negócios</button>
+            <button class="menu-button">Destaques de Design</button>
+            <div class="search-container">
+                <input type="text" class="search-input" placeholder="Pesquisar...">
+            </div>
+        </div>
+    </div>
+    <div class="big-rectangle">
+        <div class="title">Templates Grátis</div>
+        <div class="search-container">
+            <input type="text" class="search-input" placeholder="Pesquisar Por Milhares de Modelos">
+        </div>
+        <div class="text1">
+            <a> Explore milhares de belos modelos gratuitos. 
+                Com o Recurso de arrastar e soltar dfo Artifyxus, você pode personalizar seu 
+                design para qualquer ocasião com apenas alguns cliques</li>
+        </div>
+    </div>
+</div>
+
+<div class="sidebar">
+    <h2>Navegar Por</h2>
+    <ul>
+        <li><a href="#">Tags Populares</a></li>
+        <li><a href="#">Categorias</a></li>
+        <li><a href="#">Estilo</a></li>
+        <li><a href="#">Características</a></li>
+        <li><a href="#">Tipo</a></li>
+        <li><a href="#">Todas as Tags</a></li>
+    </ul>
+</div>
+
+</body>
+</html>
